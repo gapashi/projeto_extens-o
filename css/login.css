@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #EBF3F3;
+}
+
+nav {
+    background-color: #0F004D;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; /* Espaçamento entre itens */
+    align-items: center; /* Centralizar verticalmente */
+    padding: 0 20px; /* Adiciona um padding aos lados */
+}
+
+.nav-text{
+    font-size: 19px;
+    color: #FFFFFF !important;
+}
+
+.nav-text:hover{
+    color: #9CEA54 !important;
+}
+
+.nav-side{
+    font-size: 13px;
+    color: #1F80FF !important;
+}
+
+.nav-side:hover{
+    color: #608A00 !important;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div h2{
+    font-size: 50px;
+    color: #0F004D;
+    margin-top: 160px;
+}
+
+div label{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#username, #password{
+    border-radius: 5px;
+}
+
+.login-label {
+    text-align: center; /* Alinha o conteúdo ao centro */
+}
+
+.login-label form {
+    display: inline-block; /* Faz o formulário ocupar apenas o espaço necessário */
+}
+
+.login-label button {
+    display: block; /* Transforma o botão em bloco para que ocupe a largura total da div */
+    margin: 20px auto; /* Adiciona margem superior e inferior auto para centralizar verticalmente */
+}
+
+button:hover{
+    background-color: #1F80FF;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro p, .cadastro a{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    text-align: center; /* Alinha o texto do footer ao centro */
+    background-color: #608A00;
+    position: fixed; /* Fixa o footer na tela */
+    bottom: 0; /* Mantém o footer no rodapé da tela */
+    width: 100%; /* Define a largura total */
+    padding: 20px 0; /* Adiciona espaçamento interno */
+}
+
+footer .container {
+    max-width: 800px; /* Define a largura máxima do conteúdo do footer */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
